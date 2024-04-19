@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        .book-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .book {
+            text-align: center;
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .book img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online Book Store</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="assignment 7.2.html">Login</a>
+        <a href="assignmnet 7.3.html">Catalogue</a>
+        <a href="assignment 7.4.html">Register</a>
+    </nav>
+    <section>
+        <h2>Featured Books</h2>
+        <div class="book-container">
+            <div class="book">
+                <img src="book1.jpg" alt="Book1">
+                <h3>A Brief History of Time</h3>
+                <p>Author: Stephen Hawking</p>
+                <p>Price: Rs 500/-</p>
+            </div>
+            <div class="book">
+                <img src="book2.jpg" alt="Book 2">
+                <h3>The Amazing SpiderMan</h3>
+                <p>Author: Marvel</p>
+                <p>Price: Rs 200/-</p>
+            </div>
+            <div class="book">
+                <img src="book3.jpg" alt="Book 3">
+                <h3>Einstein's Life</h3>
+                <p>Author: Albert Rowling</p>
+                <p>Price: Rs 800/-</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Online Book Store
+    </footer>
+</body>
+</html>
